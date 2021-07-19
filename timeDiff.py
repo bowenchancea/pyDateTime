@@ -1,4 +1,5 @@
 import datetime
+import time
 
 #target = datetime.datetime(2022, 1, 1, 0, 0, 0)
 #now = datetime.datetime.now()
@@ -76,10 +77,10 @@ def now():
 def makeDate(a, b, c, d, e, f):
     return datetime.datetime(a, b, c, d, e, f)
 
-
-#testing:
-
-#print("Days Remaining:   ", rD(2022,1,1,0,0,0))
-#print("Hours Remaining:  ", rH(2022, 1, 1, 0, 0, 0))
-#print("Minutes Remaining:", rM(2022, 1, 1, 0, 0, 0))
-#print("Seconds Remaining:", rS(2022, 1, 1, 0, 0, 0))
+#making a countdown clock function
+def countdown(a):
+    while 0 == 0: 
+        nowCount = now()
+        print(rD(a, nowCount), "days,", rH(a, nowCount), "hours,",
+        rM(a, nowCount), "minutes, and", rS(a, nowCount), "seconds remaining")
+        time.sleep(1)
