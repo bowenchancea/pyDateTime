@@ -1,8 +1,14 @@
 import timeDiff
 
-testDate = (2022,1,1,0,0,0)
+#declaring variables for testing
+testDate = timeDiff.makeDate(2022, 1, 1, 0, 0, 0)
+now = timeDiff.now()
 
-print(timeDiff.rD(2022,1,1,0,0,0))
-print(timeDiff.rH(2022,1,1,0,0,0))
-print(timeDiff.rM(2022,1,1,0,0,0))
-print(timeDiff.rS(2022,1,1,0,0,0))
+#basic testing
+print(timeDiff.rD(testDate, now))
+print(timeDiff.rH(testDate, now))
+print(timeDiff.rM(testDate, now))
+print(timeDiff.rS(testDate, now))
+
+#calling the countdown clock
+timeDiff.countdown(testDate)
