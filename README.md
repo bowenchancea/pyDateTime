@@ -2,6 +2,10 @@
 playing with datetime in Python
 trying to create a way in order to just draw each portion of data from the timedelta function of datetime module in Python, this is just the beginning
 
+07/20/22
+
+made corrections to the syntax of the return statements(removed parenthesis)
+
 07/19/22
 
 made changes to allow for two variables as well as including new comments to better describe the module and its pieces.
