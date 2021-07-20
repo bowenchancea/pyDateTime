@@ -19,7 +19,7 @@ def timeDiff(a, b):
     #calculates minutes and then remaining seconds after minutes have been removed
     remM = remMinutesAfterHours // 60
     remS = remMinutesAfterHours % 60
-    return(remD, remH, remM, remS)
+    return remD, remH, remM, remS
 
 #returns remaining days
 def rD(a, b):
@@ -31,7 +31,7 @@ def rD(a, b):
     remMinutesAfterHours = remHoursAfterDays % 3600
     remM = remMinutesAfterHours // 60
     remS = remMinutesAfterHours % 60
-    return(remD)
+    return remD
 
 #returns remaining hours
 def rH(a, b):
@@ -43,7 +43,7 @@ def rH(a, b):
     remMinutesAfterHours = remHoursAfterDays % 3600
     remM = remMinutesAfterHours // 60
     remS = remMinutesAfterHours % 60
-    return(remH)
+    return remH
 
 #returns remaining minutes
 def rM(a, b):
@@ -55,7 +55,7 @@ def rM(a, b):
     remMinutesAfterHours = remHoursAfterDays % 3600
     remM = remMinutesAfterHours // 60
     remS = remMinutesAfterHours % 60
-    return(remM)
+    return remM
 
 #returns remaining seconds
 def rS(a, b):
@@ -67,7 +67,7 @@ def rS(a, b):
     remMinutesAfterHours = remHoursAfterDays % 3600
     remM = remMinutesAfterHours // 60
     remS = remMinutesAfterHours % 60
-    return(remS)
+    return remS
 
 #creating a now variable so datetime doesn't have to be import in main doc
 def now():
